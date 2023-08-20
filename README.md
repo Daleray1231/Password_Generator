@@ -14,6 +14,9 @@ This website is deployed through GitHub. Click the link below to visit my repo p
 https://github.com/Daleray1231/password-gen 
 
 ## Footer
+Starter code source:
+
+https://github.com/coding-boot-camp/friendly-parakeet
 
 The website was made by Dale Haynie.
 
