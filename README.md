@@ -5,7 +5,7 @@ Welcome to my Password Generator!
 This website is designed to generate a random password for the user.
 
 ## Features
-Click the 'Generate Password' button for a randomized 12-character password comprised of numbers, letters (both lowercase and uppercase), and special characters.
+Click the 'Generate Password' button for a randomized password. When prompted, you will select your desired password length, and whether or not to include UPPERCASE or LOWERCASE letters, numbers, or special characters.
 
 ## Contributing
 
