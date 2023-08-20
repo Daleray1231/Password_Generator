@@ -1,5 +1,4 @@
 // Function to generate a random password
-debugger
 function generatePassword() {
   var length = 12;
   var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=<>?";

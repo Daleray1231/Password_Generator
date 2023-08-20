@@ -1,33 +1,24 @@
-## Password Generator
+# Password Generator
+Welcome to my Password Generator!
 
-GIVEN I need a new, secure password
+## Description
+This website is designed to generate a random password for the user.
 
-WHEN I click the button to generate a password
+## Features
+Click the 'Generate Password' button for a randomized 12-character password comprised of numbers, letters (both lowercase and uppercase), and special characters.
 
-THEN I am presented with a series of prompts for password criteria
+## Contributing
 
-WHEN prompted for password criteria
+This website is deployed through GitHub. Click the link below to visit my repo page.
 
-THEN I select which criteria to include in the password
+https://github.com/Daleray1231/password-gen 
 
-WHEN prompted for the length of the password
+## Footer
 
-THEN I choose a length of at least 8 characters and no more than 128 characters
+The website was made by Dale Haynie.
 
-WHEN asked for character types to include in the password
+## License
 
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+This project is licensed under the [MIT License](LICENSE).
 
-WHEN I answer each prompt
-
-THEN my input should be validated and at least one character type should be selected
-
-WHEN all prompts are answered
-
-THEN a password is generated that matches the selected criteria
-
-WHEN the password is generated
-
-THEN the password is either displayed in an alert or written to the page
-
-![Alt text](image.png)
+![Alt text](assets/images/screenshot.jpeg)
