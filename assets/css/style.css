@@ -21,9 +21,11 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: larger;
 }
 
 header {
+  text-decoration: underline;
   text-align: center;
   align-items: center;
   padding: 20px;
@@ -41,6 +43,10 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+}
+
+.card-header h2 {
+  text-align: center;
 }
 
 .card-header::after {

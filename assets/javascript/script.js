@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var passwordLength = prompt("Enter password length (between 8 and 128):");
+  var passwordLength = prompt("Enter password length ( 8 - 128 ):");
 
   // Validate the password length input
   if (passwordLength !== null && passwordLength !== "") {
