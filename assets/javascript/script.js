@@ -56,9 +56,9 @@ function toggleDarkMode() {
   var body = document.body;
   var isDarkMode = body.classList.toggle("dark-mode");
 
-  // Invert colors for specific elements
+  
   var elementsToInvert = document.querySelectorAll('.card, header, #password, .btn');
-  elementsToInvert.forEach(function(element) {
+  elementsToInvert.forEach(function (element) {
     element.classList.toggle('dark-mode');
   });
 
