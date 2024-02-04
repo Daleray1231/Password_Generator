@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="*Password will display here*"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <div class="card">
+      <div class="card-body">
+        <textarea
+          readonly
+          id="password"
+          placeholder="*Password will display here*"
+          aria-label="Generated Password"
+        ></textarea>
+      </div>
+      <div class="card-footer">
+        <form id="passwordForm">
+          <label for="passwordLength">Password Length (8-128): </label>
+          <input type="number" id="passwordLength" name="passwordLength" min="8" max="128" required />
+
+          <div>
+            <input type="checkbox" id="uppercase" name="uppercase" />
+            <label for="uppercase">Include Uppercase letters</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="lowercase" name="lowercase" />
+            <label for="lowercase">Include Lowercase letters</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="numbers" name="numbers" />
+            <label for="numbers">Include Numbers</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="specialCharacters" name="specialCharacters" />
+            <label for="specialCharacters">Include Special characters</label>
+          </div>
+
+          <button type="button" id="generate" class="btn">Generate Password</button>
+        </form>
       </div>
     </div>
-    <script src="./assets/javascript/script.js"></script>
-  </body>
+  </div>
+  <script src="./assets/javascript/script.js"></script>
+</body>
 </html>
