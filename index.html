@@ -22,29 +22,35 @@
         ></textarea>
       </div>
       <div class="card-footer">
+        <br>
         <form id="passwordForm">
           <label for="passwordLength">Password Length (8-128): </label>
           <input type="number" id="passwordLength" name="passwordLength" min="8" max="128" required />
+          <br /><br> <!-- Add a line break for spacing -->
 
           <div>
             <input type="checkbox" id="uppercase" name="uppercase" />
             <label for="uppercase">Include Uppercase letters</label>
           </div>
+          <br /> <!-- Add a line break for spacing -->
 
           <div>
             <input type="checkbox" id="lowercase" name="lowercase" />
             <label for="lowercase">Include Lowercase letters</label>
           </div>
+          <br /> <!-- Add a line break for spacing -->
 
           <div>
             <input type="checkbox" id="numbers" name="numbers" />
             <label for="numbers">Include Numbers</label>
           </div>
+          <br /> <!-- Add a line break for spacing -->
 
           <div>
             <input type="checkbox" id="specialCharacters" name="specialCharacters" />
             <label for="specialCharacters">Include Special characters</label>
           </div>
+          <br /> <!-- Add a line break for spacing -->
 
           <button type="button" id="generate" class="btn">Generate Password</button>
         </form>
