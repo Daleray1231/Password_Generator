@@ -10,6 +10,11 @@ This web application generates random passwords based on user preferences. Custo
 - Select your desired password length.
 - Choose whether to include UPPERCASE letters, lowercase letters, numbers, and special characters.
 
+## Tech Used
+- HTML
+- CSS
+- JavaScript
+
 ## Installation
 No installation is required. Simply visit the website to use the password generator.
 
