@@ -1,5 +1,6 @@
 var generateBtn = document.querySelector("#generate");
 var passwordForm = document.querySelector("#passwordForm");
+var body = document.body;
 
 function writePassword() {
   var passwordLength = parseInt(passwordForm.elements.passwordLength.value);
@@ -45,3 +46,22 @@ function generatePassword(length, useUppercase, useLowercase, useNumbers, useSpe
 }
 
 generateBtn.addEventListener("click", writePassword);
+
+function updateDarkModeLabel(isDarkMode) {
+  var label = document.getElementById("darkModeLabel");
+  label.textContent = isDarkMode ? "Dark Mode: On" : "Dark Mode: Off";
+}
+
+function toggleDarkMode() {
+  var body = document.body;
+  var isDarkMode = body.classList.toggle("dark-mode");
+
+  // Invert colors for specific elements
+  var elementsToInvert = document.querySelectorAll('.card, header, #password, .btn');
+  elementsToInvert.forEach(function(element) {
+    element.classList.toggle('dark-mode');
+  });
+
+  updateDarkModeLabel(isDarkMode);
+}
+
