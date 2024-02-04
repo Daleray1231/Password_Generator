@@ -13,7 +13,6 @@ function writePassword() {
       var useLowercase = confirm("Include Lowercase letters?");
       var useNumbers = confirm("Include Numbers?");
       var useSpecialCharacters = confirm("Include Special characters?");
-      
       var password = generatePassword(passwordLength, useUppercase, useLowercase, useNumbers, useSpecialCharacters);
       var passwordText = document.querySelector("#password");
       passwordText.value = password;
