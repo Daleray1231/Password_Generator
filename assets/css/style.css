@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
 html,
 body,
 .wrapper {
